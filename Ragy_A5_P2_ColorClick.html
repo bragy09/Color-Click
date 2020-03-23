@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> Ragy_A5_P2_ColorClick.html </title>
+  <script>
+      function colorChoice(color)
+      {
+          alert("Your favorite color is " + color);
+
+      }
+  </script> </head>
+<body>
+    <h4> Choose your favorite color </h4>
+    <form id = "myForm"  action = "">
+      <p>
+        <input type="radio" name="colorButton" value="152"
+                     onclick = "colorChoice('Red')" /> Red <br>
+        <input type = "radio"  name = "colorButton" value = "172"
+                     onclick = "colorChoice('Blue')" /> Blue <br>
+        <input type = "radio"  name = "colorButton" value = "182"
+                     onclick = "colorChoice('Green')" /> Green <br>
+        <input type = "radio"  name = "colorButton" value = "210"
+                     onclick = "colorChoice('Yellow')" /> Yellow  <br>
+		<input type = "radio"  name = "colorButton" value = "210"
+                     onclick = "colorChoice('Orange')" /> Orange</p>
+    </form>
+</body>
+</html>
